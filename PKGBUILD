@@ -9,8 +9,8 @@ pkgrel=1
 pkgdesc="Pacman hooks for Exodia to fix various system files."
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-release"
-license=('MIT')
-
+license=('GPL3')
+md5sums=('SKIP')
 prepare() {
     cp -af ../files/* ${srcdir}
 }
