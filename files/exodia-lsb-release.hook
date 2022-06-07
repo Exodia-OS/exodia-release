@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = lsb-release
+
+[Action]
+Description = Updating Exodia LSB Configurations...
+When = PostTransaction
+Exec = /usr/bin/exodia-hooks-runner lsb-release

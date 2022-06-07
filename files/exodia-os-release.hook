@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = filesystem
+
+[Action]
+Description = Updating Exodia OS-Specific Configurations...
+When = PostTransaction
+Exec = /usr/bin/exodia-hooks-runner os-release
