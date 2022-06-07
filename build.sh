@@ -14,7 +14,6 @@ echo ""
 makepkg -sc --noconfirm
 yes| paru -c
 mkdir -p ../x86_64
-chmod +x  *.pkg.tar.zst
 mv *.pkg.tar.zst ../x86_64
 
 echo ""
