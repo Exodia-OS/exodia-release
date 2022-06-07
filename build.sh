@@ -13,8 +13,8 @@ echo ""
 
 makepkg -sc --noconfirm
 yes| paru -c
-mkdir -p ../core-x86_64
-mv *.pkg.tar.zst ../core-x86_64
+mkdir -p ../x86_64
+mv *.pkg.tar.zst ../x86_64
 
 echo ""
 echo "########################################"
