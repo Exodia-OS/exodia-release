@@ -1,6 +1,5 @@
 #
 # Maintainer: Mahmoud Mohamed (Ozil) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
-# contributor :  Omar Esmail <https://github.com/OmarEsmail211>
 #
 
 pkgname=exodia-release
